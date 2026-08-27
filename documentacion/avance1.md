@@ -5,7 +5,7 @@
 
 |Materiales|Uso|
 |:---:|:---|
-|sensor de humo| Alarma detector de fuego
+|sensor de humo| Alarma detector de fuego|
 
 
 
