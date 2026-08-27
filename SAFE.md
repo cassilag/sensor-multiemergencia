@@ -16,8 +16,6 @@ tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
 - Agustin Martinez
 - Florencia Delgado
 - Andrea Puentes
-- 
-- [Opcional: agregar fotos o avatar para cada integrante]
 
 ## Documentación
 - [Informe de Avance - Agosto 202x](documentacion/avance1.md)
