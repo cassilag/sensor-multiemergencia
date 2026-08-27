@@ -3,7 +3,8 @@
 # Proyecto SAFE
 
 ## Descripción
-- [Agregar un párrafo con descripción del proyecto STEAM]
+- Se crea un prototipo funcional de un Sensor con un sistema integrado que agrega detección de incendio y temblores emitiendo alerta de sonido y luz.
+  Al cual se le agrega una maqueta en impresión 3d delimitando y protegiendo a los sensores de posibles caìdas.
 - [Agregar una imagen o fotografía relevante al proyecto]
 - [Opcional: agregar el nombre del equipo]
 
