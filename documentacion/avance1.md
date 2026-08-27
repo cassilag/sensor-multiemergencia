@@ -1,6 +1,6 @@
-# Informe de Avance 1: Agosto 202x
+# Informe de Avance 1: Agosto 2026
 
-## [x]/8/202x
+## 31/8/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
