@@ -11,11 +11,11 @@
 tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
 
 ## Integrantes
-- [Nombre integrante 1]
-- [Nombre integrante 2]
-- [Nombre integrante 3]
-- [Nombre integrante 4]
-- [Nombre integrante 5]
+- Andres Silva
+- Agustin Martinez
+- Florencia Delgado
+- Andrea Puentes
+- 
 - [Opcional: agregar fotos o avatar para cada integrante]
 
 ## Documentación
