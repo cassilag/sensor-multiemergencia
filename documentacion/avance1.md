@@ -2,10 +2,13 @@
 
 ## 13/8/2026
 - En una etapa inicial somos un equipo de 3 personas y reunimos una lluvia de ideas de proyectos que podriamos realizar y hablamos sobre los posibles materiales (sensores) que se nos brindaria en UTU para poder trabajar, pedimos los materiales y en base a eso se propuso una idea del producto al que se queria realizar.
-- 
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
+
+|Materiales|Uso|
+|:---:|:---|
+
+
+
+
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
