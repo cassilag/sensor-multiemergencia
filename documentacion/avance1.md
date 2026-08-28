@@ -26,9 +26,10 @@
 - Además se hablo de un primer acercamiento a las necesidades que queremos cumplir entonces la integrante Andrea realizò una tabla de materiales y usos de los mismos, atendiendo a cada necesidad.
 - Andrés realizará el logo que representa el producto/Proyecto.
 
-  - [Imágenes o videos ilustrativos del avance]
+  - Al realizar las pruebas con el arduino encontramos que necesitamos material adicional para la realizacion de pruebas
+  - Se deben incluira en la lista de materiales un protoboard y unos cables dupont macho
 
-## [x]/8/202x
+
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
