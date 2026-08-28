@@ -12,14 +12,10 @@
 |Arduino UNO| donde va integrado todo el sistema|
 
 
-##20/8/2026
+## 20/8/2026
 - En este dia se decide sumar al equipo una tercera persona Florencia Delgado, y seguir hablando sobre que idea tenemos de proyecto y que se quisiera lograr.
 - Incluso hablamos de un presupuesto acercado de los materiales que se necesitan.
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+
 
 ## 27 /8/2026
 - Estando casi el grupo completo Tomamos las primeras decisiones en grupo; primeramente nombramos entre todos los integrantes, el nombre del proyecto utilizando las siglas "SAFE" (Sensor Automático de fuego y emergencias.El cual va a responder a esas necesidades nombradas eligiendo un sensor de detección de humo y un sensor de movimiento que actuará como alerta contra temblores.
@@ -30,12 +26,6 @@
   - Se deben incluira en la lista de materiales un protoboard y unos cables dupont macho
 
 
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
 
 ## Nota
 En este enlace encontrarás un [ejemplo como debe completarse el informe de avance](avance_ejemplo.md).
