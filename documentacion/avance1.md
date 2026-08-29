@@ -25,6 +25,9 @@
 - Andrés realizará el logo que representa el producto/Proyecto.
 
   - Al realizar las pruebas con el arduino encontramos que necesitamos material adicional para la realizacion de pruebas
+ 
+  - <video src="videos/Video%20primer%20avance%20agosto.mp4" controls="controls" style="max-width: 100%;">
+</video>
   - Se deben incluira en la lista de materiales un protoboard y unos cables dupont macho
 
 
