@@ -26,8 +26,12 @@
 
   - Al realizar las pruebas con el arduino encontramos que necesitamos material adicional para la realizacion de pruebas
  
-  - <video src="videos/Video%20primer%20avance%20agosto.mp4" controls="controls" style="max-width: 100%;">
-</video>
+    
+
+https://github.com/user-attachments/assets/264e39dc-5828-4d54-aeec-f4010a72adb0
+
+
+
   - Se deben incluira en la lista de materiales un protoboard y unos cables dupont macho
 
 
