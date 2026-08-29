@@ -10,6 +10,8 @@
 |Buzzer| Para uso de aviso con sonido|
 |led| aviso con lus de Alarma|
 |Arduino UNO| donde va integrado todo el sistema|
+|Protoboard|para conectar los pines del Arduino|
+|Cables dupont macho|para realizar las conexiones entre la protoboard y el arduino|
 
 
 ## 20/8/2026
