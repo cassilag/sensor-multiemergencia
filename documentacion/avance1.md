@@ -8,7 +8,7 @@
 |sensor de humo| Alarma detector de fuego|
 |sensor inclinación| Alarma detector sismos|
 |Buzzer| Para uso de aviso con sonido|
-|led| aviso con lus de Alarma|
+|led| aviso con luz de Alarma|
 |Arduino UNO| donde va integrado todo el sistema|
 |Protoboard|para conectar los pines del Arduino|
 |Cables dupont macho|para realizar las conexiones entre la protoboard y el arduino|
