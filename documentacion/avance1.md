@@ -20,8 +20,8 @@
 
 
 ## 27 /8/2026
-- Estando casi el grupo completo Tomamos las primeras decisiones en grupo; primeramente nombramos entre todos los integrantes, el nombre del proyecto utilizando las siglas "SAFE" (Sensor Automático de fuego y emergencias.El cual va a responder a esas necesidades nombradas eligiendo un sensor de detección de humo y un sensor de movimiento que actuará como alerta contra temblores.
-- Además se hablo de un primer acercamiento a las necesidades que queremos cumplir entonces la integrante Andrea realizò una tabla de materiales y usos de los mismos, atendiendo a cada necesidad.
+- Estando casi el grupo completo Tomamos las primeras decisiones en grupo; primeramente nombramos entre todos los integrantes, el nombre del proyecto utilizando las siglas "SAFE" (Sensor Automático de fuego y emergencias).El cual va a responder a esas necesidades nombradas eligiendo un sensor de detección de humo y un sensor de movimiento que actuará como alerta contra temblores.
+- Además se hablo de un primer acercamiento a las necesidades que queremos cumplir entonces la integrante Andrea realizó una tabla de materiales y usos de los mismos, atendiendo a cada necesidad.
 - Andrés realizará el logo que representa el producto/Proyecto.
 
   - Al realizar las pruebas con el arduino encontramos que necesitamos material adicional para la realizacion de pruebas
