@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/264e39dc-5828-4d54-aeec-f4010a72adb0
 
 
 
-  - Se deben incluira en la lista de materiales un protoboard y unos cables dupont macho
+  - Se deben incluir en la lista de materiales: un protoboard y unos cables dupont macho
 
 
 
