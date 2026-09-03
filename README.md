@@ -1,5 +1,3 @@
-*Este repositorio es una plantilla para ser usada para documentar proyectos STEAM.*
-
 # Proyecto SAFE
 
 ## Descripción
@@ -9,7 +7,7 @@
 - [Opcional: agregar el nombre del equipo]
 
 *Nota:* Este proyecto se realiza durante el curso **Laboratorio STEAM+** de la
-tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
+tecnicatura **Redes y Software** del **Instituto Tecnológico de Informática** de **UTU**.
 
 ## Integrantes
 - Andres Silva
@@ -18,7 +16,7 @@ tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
 - Andrea Puentes
 
 ## Documentación
-- [Informe de Avance - Agosto 202x](documentacion/avance1.md)
+- [Informe de Avance - Agosto 2026](documentacion/avance1.md)
 - [Informe de Avance - Septiembre 202x](documentacion/avance2.md)
 - [Informe de Avance - Octubre 202x](documentacion/avance3.md)
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
