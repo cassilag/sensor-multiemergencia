@@ -1,4 +1,4 @@
-# Informe de Avance 2: Septiembre 202x
+# Informe de Avance 2: Septiembre 2026
 
 ## 3/9/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
