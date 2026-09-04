@@ -1,6 +1,6 @@
 # Informe de Avance 2: Septiembre 202x
 
-## [x]/9/202x
+## 3/9/202x
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
