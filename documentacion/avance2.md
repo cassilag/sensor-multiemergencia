@@ -2,7 +2,7 @@
 
 ## 3/9/2026
 - Bueno, entre 3 integrantes presentes del grupo, Andrés, Andrea y Florencia, decidimos reunirnos a traves de google meet para afinar el avance 2 del mes de septiembre.
-- Aquí se hizo una investigación sobre como conectar los diferentes elementos: protoboard, arduino y sensores utilizando los cables dupont macho.
+- Aquí se hizo una investigación sobre como conectar los diferentes elementos: protoboard, arduino y sensores utilizando los cables dupont macho. (Referencias: https://www.youtube.com/watch?v=Mn2a9XT9j5A&t=183s https://www.youtube.com/watch?v=8g7fYok31Nw)
 - Se tomaron diferentes capturas de pantalla y videos, de las pruebas que hicimos en tinkercad y la interaccion de la reunión.
 - De manera complementaria, se realizó la busqueda e identificación de componentes de alimentación eléctrica, como resultado se selecciono una fuente de energía portátil mediante una bateria de 9V, garantizando la autonomia del sistema y eliminando la dependencia de una conexion USB.
 
