@@ -11,13 +11,15 @@
 
 
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+## 10/9/2026
+- Se solicitaron materiales adicionales unos con el fin de complementar el proyecto se tomaron 3 leds y tres resistencias para dar los avisos de emergencia con parpadeos de luz, uno de los leds se encontraba averiado y dos se encuentran funcionando correctamente
+- Se solicito como material para tenerlo como opcion para hacer hacer mas robusto el proyecto si los tiempos lo permiten
+- Se probo el sensor led con el buzzer y funciono correctamente
+  
+
+https://github.com/user-attachments/assets/dbec826d-9754-4604-ba53-95db8a17e077
+
+
 
 ## [x]/9/202x
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
