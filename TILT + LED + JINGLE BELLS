@@ -1,0 +1,54 @@
+#include <Buzzer.h>
+
+const int ledPIN = 2;
+const int tiltPIN = 3;
+Buzzer buzzer(8, 11);
+
+const int tiempoEstabilidad = 150; // Filtra vibraciones pequeñas
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPIN, OUTPUT);
+  pinMode(tiltPIN, INPUT_PULLUP);
+}
+
+void reproducirNota(int nota, int duracion) {
+  digitalWrite(ledPIN, HIGH);
+  buzzer.sound(nota, duracion);
+  digitalWrite(ledPIN, LOW);
+}
+
+// Verifica que el sensor esté activado de forma constante
+bool estaInclinado() {
+  // Lógica Invertida: Detecta HIGH en lugar de LOW
+  if (digitalRead(tiltPIN) == HIGH) {      
+    delay(tiempoEstabilidad);
+    if (digitalRead(tiltPIN) == HIGH) {
+      return true;
+    }
+  }
+  return false;
+}
+
+void loop() {
+  if (estaInclinado()) {
+    int time = 500;
+    buzzer.begin(10);
+
+    // Melodía
+    reproducirNota(NOTE_G3, time / 2);
+    reproducirNota(NOTE_E4, time / 2);
+    reproducirNota(NOTE_D4, time / 2);
+    reproducirNota(NOTE_C4, time / 2);
+    reproducirNota(NOTE_G3, time * 2);
+
+    reproducirNota(NOTE_E4, time / 2);
+    reproducirNota(NOTE_E4, time / 2);
+    reproducirNota(NOTE_E4, time);
+
+    buzzer.end(500); 
+  } else {
+    // Si no está inclinado, todo apagado
+    digitalWrite(ledPIN, LOW);
+  }
+}
