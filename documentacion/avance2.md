@@ -13,11 +13,20 @@
 
 ## 10/9/2026
 - Se solicitaron materiales adicionales unos con el fin de complementar el proyecto se tomaron 3 leds y tres resistencias para dar los avisos de emergencia con parpadeos de luz, uno de los leds se encontraba averiado y dos se encuentran funcionando correctamente
-- Se solicito como material para tenerlo como opcion para hacer hacer mas robusto el proyecto si los tiempos lo permiten
+- Se solicito una pantalla led para tenerlo como opcion para hacer hacer mas robusto el proyecto si los tiempos lo permiten
 - Se probo el sensor led con el buzzer y funciono correctamente
+- Se probo el sensor de inclinacion con aviso led y funciono correctamente
+- 
+
+https://github.com/user-attachments/assets/6968d8bc-43ad-4e01-9400-bc16828abfb0
+
+
+
+https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
+
+
   
 
-https://github.com/user-attachments/assets/dbec826d-9754-4604-ba53-95db8a17e077
 
 
 
