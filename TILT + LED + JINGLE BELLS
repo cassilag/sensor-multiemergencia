@@ -2,7 +2,7 @@
 
 const int ledPIN = 2;
 const int tiltPIN = 3;
-Buzzer buzzer(8, 11);
+Buzzer buzzer(11);
 
 const int tiempoEstabilidad = 150; // Filtra vibraciones pequeñas
 
@@ -42,11 +42,12 @@ void loop() {
     reproducirNota(NOTE_C4, time / 2);
     reproducirNota(NOTE_G3, time * 2);
 
-    reproducirNota(NOTE_E4, time / 2);
-    reproducirNota(NOTE_E4, time / 2);
-    reproducirNota(NOTE_E4, time);
-
     buzzer.end(500); 
+  } else {
+    // Si no está inclinado, todo apagado
+    digitalWrite(ledPIN, LOW);
+  }
+}
   } else {
     // Si no está inclinado, todo apagado
     digitalWrite(ledPIN, LOW);
