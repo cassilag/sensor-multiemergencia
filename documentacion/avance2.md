@@ -41,6 +41,8 @@ https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
   - El led va una parte mas larga que es la parte de señal y la otra mas corta de tierra.pata mas larga en vertical y la corta con el negativo y es necesario conectarlo a una resistencia de lo contrario, se quema.Resistencia se conecta de la misma forma, un pin se conecta verticalmente al negativo del led y el otro a tierra El cable azul
  
 Ademas se probó la conexion del sensor de fuego, y vimos como se puede adaptar el codigo para que este funcione.
+Teniamos que experiemntar con fuego, pero no teniamos un encendedor para que identificara el aumento de la temperatura, lo tuvimos por poco tiempo asique no pudimos probar mucho.
+Encontramos problemas ya que quisimos probar el sensor de fuego, pero no identificaba la señal intensidad de la temperatura y no mostraba nada en el codigo, no lo reconocia, asique dimos por terminada la exprimentacion en el dia de hoy.
  
 
   - 
