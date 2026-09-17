@@ -30,10 +30,19 @@ https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
 
 
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
+## [17]/9/2026
+- En el día de hoy, estamos probando las conexiones y que todos las conexiones y sensores funcionen bien, ademas revisamos el codigo par aver si tenia errores y modificamos algún detalle.
+- Ademas tomamos un encendedor para simular el cambio de temperatura con el fuego del encendedor, en el ambiente laboratorio en clase.
+- Para ver como se comporta el sensor de incendio.
 - [Incluir:]
-  - [Tareas completadas]
+  - Conexiones de los cables al sensor
+  - el cable violeta siempre debe ir en la posición digital 11
+  - positivo (Rojo) 5v y Negativo a tierra GND
+  - El led va una parte mas larga que es la parte de señal y la otra mas corta de tierra.pata mas larga en vertical y la corta con el negativo y es necesario conectarlo a una resistencia de lo contrario, se quema.Resistencia se conecta de la misma forma, un pin se conecta verticalmente al negativo del led y el otro a tierra El cable azul 
+ 
+
+  - 
+ 
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
