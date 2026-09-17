@@ -38,7 +38,9 @@ https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
   - Conexiones de los cables al sensor
   - el cable violeta siempre debe ir en la posición digital 11
   - positivo (Rojo) 5v y Negativo a tierra GND
-  - El led va una parte mas larga que es la parte de señal y la otra mas corta de tierra.pata mas larga en vertical y la corta con el negativo y es necesario conectarlo a una resistencia de lo contrario, se quema.Resistencia se conecta de la misma forma, un pin se conecta verticalmente al negativo del led y el otro a tierra El cable azul 
+  - El led va una parte mas larga que es la parte de señal y la otra mas corta de tierra.pata mas larga en vertical y la corta con el negativo y es necesario conectarlo a una resistencia de lo contrario, se quema.Resistencia se conecta de la misma forma, un pin se conecta verticalmente al negativo del led y el otro a tierra El cable azul
+ 
+Ademas se probó la conexion del sensor de fuego, y vimos como se puede adaptar el codigo para que este funcione.
  
 
   - 
