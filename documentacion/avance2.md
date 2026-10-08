@@ -1,7 +1,7 @@
 # Informe de Avance 2: Septiembre 2026
 
 ## 3/9/2026
-- Bueno, entre 3 integrantes presentes del grupo, Andrés, Andrea y Florencia, decidimos reunirnos a traves de google meet para afinar el avance 2 del mes de septiembre.
+- Bueno, entre 3 integrantes presentes del grupo, Andrés, Andrea y Florencia, decidimos reunirnos a través de google meet para afinar el avance 2 del mes de septiembre.
 - Aquí se hizo una investigación sobre como conectar los diferentes elementos: protoboard, arduino y sensores utilizando los cables dupont macho. (Referencias: https://www.youtube.com/watch?v=Mn2a9XT9j5A&t=183s https://www.youtube.com/watch?v=8g7fYok31Nw)
 - Se tomaron diferentes capturas de pantalla y videos, de las pruebas que hicimos en tinkercad y la interaccion de la reunión.
 - De manera complementaria, se realizó la busqueda e identificación de componentes de alimentación eléctrica, como resultado se selecciono una fuente de energía portátil mediante una bateria de 9V, garantizando la autonomia del sistema y eliminando la dependencia de una conexion USB.
@@ -13,9 +13,9 @@
 
 ## 10/9/2026
 - Se solicitaron materiales adicionales unos con el fin de complementar el proyecto se tomaron 3 leds y tres resistencias para dar los avisos de emergencia con parpadeos de luz, uno de los leds se encontraba averiado y dos se encuentran funcionando correctamente
-- Se solicito una pantalla led para tenerlo como opcion para hacer hacer mas robusto el proyecto si los tiempos lo permiten
+- Se solicito una pantalla led para tenerlo como opción para hacer hacer mas robusto el proyecto si los tiempos lo permiten
 - Se probo el sensor led con el buzzer y funciono correctamente
-- Se probo el sensor de inclinacion con aviso led y funciono correctamente
+- Se probo el sensor de inclinación con aviso led y funciono correctamente
 - 
 
 https://github.com/user-attachments/assets/6968d8bc-43ad-4e01-9400-bc16828abfb0
@@ -30,8 +30,8 @@ https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
 
 
 
-## [17]/9/2026
-- En el día de hoy, estamos probando las conexiones y que todos las conexiones y sensores funcionen bien, ademas revisamos el codigo par aver si tenia errores y modificamos algún detalle.
+## 17/9/2026
+- En el día de hoy, estamos probando las conexiones y que todos las conexiones y sensores funcionen bien, ademas revisamos el código para ver si tenia errores y modificamos algún detalle.
 - Ademas tomamos un encendedor para simular el cambio de temperatura con el fuego del encendedor, en el ambiente laboratorio en clase.
 - Para ver como se comporta el sensor de incendio.
 - [Incluir:]
@@ -40,24 +40,9 @@ https://github.com/user-attachments/assets/deb991b2-9877-4813-91a6-490d25ec07f3
   - positivo (Rojo) 5v y Negativo a tierra GND
   - El led va una parte mas larga que es la parte de señal y la otra mas corta de tierra.pata mas larga en vertical y la corta con el negativo y es necesario conectarlo a una resistencia de lo contrario, se quema.Resistencia se conecta de la misma forma, un pin se conecta verticalmente al negativo del led y el otro a tierra El cable azul
  
-Ademas se probó la conexion del sensor de fuego, y vimos como se puede adaptar el codigo para que este funcione.
-Teniamos que experiemntar con fuego, pero no teniamos un encendedor para que identificara el aumento de la temperatura, lo tuvimos por poco tiempo asique no pudimos probar mucho.
-Encontramos problemas ya que quisimos probar el sensor de fuego, pero no identificaba la señal intensidad de la temperatura y no mostraba nada en el codigo, no lo reconocia, asique dimos por terminada la exprimentacion en el dia de hoy.
+Ademas se probó la conexión del sensor de fuego, y vimos como se puede adaptar el código para que este funcione.
+Teníamos que experimentar con fuego, pero no teníamos un encendedor para que identificara el aumento de la temperatura, lo tuvimos por poco tiempo así que no pudimos probar mucho.
+Encontramos problemas ya que quisimos probar el sensor de fuego, pero no identificaba la señal intensidad de la temperatura y no mostraba nada en el código, no lo reconocía, así que dimos por terminada la experimentación en el día de hoy.
  
 
-  - 
- 
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
-
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
-
-## Nota
 En este enlace encontrarás un [ejemplo como debe completarse el informe de avance](avance_ejemplo.md).
