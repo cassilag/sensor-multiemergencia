@@ -48,8 +48,3 @@ void loop() {
     digitalWrite(ledPIN, LOW);
   }
 }
-  } else {
-    // Si no está inclinado, todo apagado
-    digitalWrite(ledPIN, LOW);
-  }
-}
