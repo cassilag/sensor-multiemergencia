@@ -45,4 +45,3 @@ Teníamos que experimentar con fuego, pero no teníamos un encendedor para que i
 Encontramos problemas ya que quisimos probar el sensor de fuego, pero no identificaba la señal intensidad de la temperatura y no mostraba nada en el código, no lo reconocía, así que dimos por terminada la experimentación en el día de hoy.
  
 
-En este enlace encontrarás un [ejemplo como debe completarse el informe de avance](avance_ejemplo.md).
