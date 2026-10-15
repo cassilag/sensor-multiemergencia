@@ -104,13 +104,14 @@ A partir de esas pruebas, documentarían:
 - Conclusión: determinar si las lecturas son suficientemente consistentes para el propósito del proyecto.
 No siempre es necesario modificar el código. Puede bastar con registrar las pruebas, analizar los resultados y explicar si el sensor cumple con lo esperado.
 
-## [x]/10/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+## 15/10/2026
+- Andrés y Andrea hablaron y acordaron que la próxima clase toman las medidas para realizar la calibración del sensor de fuego, se analizara la posibilidad de encontrar una caja para proteger todo el dispositivo multi-emergencia.
+- También Para la próxima clase se acordó de comprar una pila y un portapila para que la fuente de alimentación del sensor no dependa de la computadora y pueda estar aislado y protegido en una caja 
+- El profe nos propuso también que con si tenemos en casa una powerbank podemos usarla y con un cable USB cortarlos y colocar el positivo y el negativo al protoboard como opción de ahorro en la compra de una pila y un portapila
+  
+ 
+  - Próximos pasos: En la clase del 15/10/2026 probar con la regla la calibración del sensor de fuego y analizar la protección que va a llevar el sensor completo
+  - Confirmar si se realizara la compra de la pila y portapila o si se utilizara una powerbank
 
 ## [x]/10/202x
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
