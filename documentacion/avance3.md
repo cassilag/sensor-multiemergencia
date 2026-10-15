@@ -1,10 +1,10 @@
 # Informe de Avance 3: Octubre 202x
 
 ## 08/10/2026
--  Realizamos las conexiones nuevamente de todos los sensores, la mayoría funciona sin problemas pero  el sensor de fuego que no funcionaba, Andres realizo una prueba distinta conecto el positivo del sensor de llama a la entrada de 3.3V del arduino y la señal analógica al Arduino la conexión a tierra si quedo conectada al protoboard con eso se logro activar el sensor.
+-  Realizamos las conexiones nuevamente de todos los sensores, la mayoría funciona sin problemas pero  el sensor de fuego que no funcionaba, Andrés realizo una prueba distinta conecto el positivo del sensor de llama a la entrada de 3.3V del arduino y la señal analógica al Arduino la conexión a tierra si quedo conectada al protoboard con eso se logro activar el sensor.
 -Ademas probamos varios códigos para el sensor buzzer donde se utilizaron varias frecuencias dentro del mismo, para identificar una frecuencia de sonido que sea fuerte y adecuada para que se realice la alerta del sensor.
--Se agregaron además carpetas en el gitch para organizar los codigos de cada sensor y usarlos como apoyo en la clase siguiente 15/10 y realizar la documentación de la calibración para cada uno.
--Pasamos la señal que recibiamos del del sensor de tilt  que estaba en digital a analógica.
+-Se agregaron además carpetas en el gitf para organizar los códigos de cada sensor y usarlos como apoyo en la clase siguiente 15/10 y realizar la documentación de la calibración para cada uno.
+-Pasamos la señal que recibíamos del del sensor de tilt  que estaba en digital a analógica.
 
 - [Incluir:]
   - [Tareas completadas]
