@@ -1,4 +1,4 @@
-# Informe de Avance 3: Octubre 202x
+# Informe de Avance 3: Octubre 2026
 
 ## 08/10/2026
 -  Realizamos las conexiones nuevamente de todos los sensores, la mayoría funciona sin problemas pero  el sensor de fuego que no funcionaba, Andrés realizo una prueba distinta conecto el positivo del sensor de llama a la entrada de 3.3V del arduino y la señal analógica al Arduino la conexión a tierra si quedo conectada al protoboard con eso se logro activar el sensor.
