@@ -6,13 +6,17 @@
 -Se agregaron además carpetas en el gitf para organizar los códigos de cada sensor y usarlos como apoyo en la clase siguiente 15/10 y realizar la documentación de la calibración para cada uno.
 -Pasamos la señal que recibíamos del del sensor de tilt  que estaba en digital a analógica.
 
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+  - Tareas completadas: Se realizan las conexiones con los sensores, se ajusta el código para ajustar la frecuencia y el sonido para el  buzzer
+  - Problemas encontrados y soluciones/alternativas propuestas: encontramos dificultades para probar el sensor de fuego, al cambiar la conexión de entrada del Arduino directamente con esto quedo solucionado
+  - Próximos pasos: realizar un test de calibración del sensor de fuego con un metro para analizar el alcance del mismo.
+  - Video de prueba de sensor de fuego
+    
+
+https://github.com/user-attachments/assets/215cc76a-5bdc-4b92-83a9-aced40b5e807
+
+
  
-- 1. ¿Qué significa calibrar un sensor?
+ 1. ¿Qué significa calibrar un sensor?
 Un sensor es un componente que detecta una magnitud o un cambio en el entorno. Por ejemplo:
 
 
