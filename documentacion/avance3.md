@@ -117,7 +117,7 @@ No siempre es necesario modificar el código. Puede bastar con registrar las pru
 - El grupo se puso a indagar sobre cuales serían las medidas del contenedor caja donde iría el sensor.
 - Aproximadamente dando unas medidas con cinta métrica. Andrea tomó notas de las medidas para tenerlas en cuenta 15X12cm.
 -Hablamos en grupo de que se podría complejizar un poco más el proyecto, porque anteriormente los sensores que teníamos se rompieron. Y conversando con el profesor nos ofreció un LED RGB, que por si solo puede hacer los 3 colores del semáforo, rojo, para alerta critica, amarillo media, y verde baja.
-  Tomada esa decisión Andrés se encarga de anexar al código que ya tenemos, un bloque con  esas instrucciones para el sensor LED RGB.
+  Tomada esa decisión Andrés se encarga de primero probar ese bloque de codigo con  esas instrucciones donde se genera un semaforo,para el sensor LED RGB.
   El material de la caja por ahora en esta clase definimos que el material podría ser MDF, y que además entre las adaptaciones que tiene la caja tendrà un circulo que es la forma o diametro del buzer, para que pueda quedar a la vista.
 - [Incluir:]
   - [Tareas completadas]
