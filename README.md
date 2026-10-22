@@ -4,23 +4,22 @@
 
 ## Descripción
 - Se crea un prototipo funcional de un Sensor con un sistema integrado que agrega detección de incendio y temblores emitiendo alerta de sonido y luz.
-  Al cual se le agrega una maqueta en impresión 3d delimitando y protegiendo a los sensores de posibles caìdas.
+  Al cual se le agrega una caja para proteger  los sensores de posibles caìdas.
 - [Agregar una imagen o fotografía relevante al proyecto]
 - [Opcional: agregar el nombre del equipo]
 
 *Nota:* Este proyecto se realiza durante el curso **Laboratorio STEAM+** de la
-tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
+tecnicatura **Redes y Software** del Instituto tecnológico de Informática UTU .
 
 ## Integrantes
 - Andres Silva
-- Agustin Martinez
 - Florencia Delgado
 - Andrea Puentes
 
 ## Documentación
-- [Informe de Avance - Agosto 202x](documentacion/avance1.md)
-- [Informe de Avance - Septiembre 202x](documentacion/avance2.md)
-- [Informe de Avance - Octubre 202x](documentacion/avance3.md)
+- [Informe de Avance - Agosto 2026(documentacion/avance1.md)
+- [Informe de Avance - Septiembre 2026](documentacion/avance2.md)
+- [Informe de Avance - Octubre 2026(documentacion/avance3.md)
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
 
 ## Código fuente
