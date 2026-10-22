@@ -113,8 +113,12 @@ No siempre es necesario modificar el código. Puede bastar con registrar las pru
   - Próximos pasos: En la clase del 15/10/2026 probar con la regla la calibración del sensor de fuego y analizar la protección que va a llevar el sensor completo
   - Confirmar si se realizara la compra de la pila y portapila o si se utilizara una powerbank
 
-## [x]/10/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
+## 22/10/2026
+- El grupo se puso a indagar sobre cuales serían las medidas del contenedor caja donde iría el sensor.
+- Aproximadamente dando unas medidas con cinta métrica. Andrea tomó notas de las medidas para tenerlas en cuenta 15X12cm.
+-Hablamos en grupo de que se podría complejizar un poco más el proyecto, porque anteriormente los sensores que teníamos se rompieron. Y conversando con el profesor nos ofreció un LED RGB, que por si solo puede hacer los 3 colores del semáforo, rojo, para alerta critica, amarillo media, y verde baja.
+  Tomada esa decisión Andrés se encarga de anexar al código que ya tenemos, un bloque con  esas instrucciones para el sensor LED RGB.
+  El material de la caja por ahora en esta clase definimos que el material podría ser MDF, y que además entre las adaptaciones que tiene la caja tendrà un circulo que es la forma o diametro del buzer, para que pueda quedar a la vista.
 - [Incluir:]
   - [Tareas completadas]
   - [Problemas encontrados y soluciones/alternativas propuestas]
