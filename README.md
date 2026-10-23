@@ -17,9 +17,9 @@ tecnicatura **Redes y Software** del Instituto tecnológico de Informática UTU 
 - Andrea Puentes
 
 ## Documentación
-- [Informe de Avance - Agosto 2026(documentacion/avance1.md)
+- [Informe de Avance - Agosto 2026](documentacion/avance1.md)
 - [Informe de Avance - Septiembre 2026](documentacion/avance2.md)
-- [Informe de Avance - Octubre 2026(documentacion/avance3.md)
+- [Informe de Avance - Octubre 2026](documentacion/avance3.md)
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
 
 ## Código fuente
