@@ -119,6 +119,7 @@ No siempre es necesario modificar el código. Puede bastar con registrar las pru
 -Hablamos en grupo de que se podría complejizar un poco más el proyecto, porque anteriormente los sensores que teníamos se rompieron. Y conversando con el profesor nos ofreció un LED RGB, que por si solo puede hacer los 3 colores del semáforo, rojo, para alerta critica, amarillo media, y verde baja.
   Tomada esa decisión Andrés se encarga de primero probar ese bloque de codigo con  esas instrucciones donde se genera un semaforo,para el sensor LED RGB.
   El material de la caja por ahora en esta clase definimos que el material podría ser MDF, y que además entre las adaptaciones que tiene la caja tendrà un circulo que es la forma o diametro del buzer, para que pueda quedar a la vista.
+  A final de la clase logramos programar el código de tal forma que logramos el semáforo de los 3 colores simulando el fuego con el encendedor. 
 - [Incluir:]
   - [Tareas completadas]
   - [Problemas encontrados y soluciones/alternativas propuestas]
