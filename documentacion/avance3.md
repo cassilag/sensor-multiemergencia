@@ -131,12 +131,16 @@ https://github.com/user-attachments/assets/2e83b3da-e573-4e5d-b000-98127dbae60e
 
 
 ## 29/10/2026
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
+- [Tareas completadas]
+- El día de hoy probar la caja de protección del SAFE
+- Reforzamos los conocimientos de la integración del código y el armado del sensor
+- <img width="1080" height="1920" alt="caja proyecto steam" src="https://github.com/user-attachments/assets/3c466c55-f5b7-4f74-a864-7dfa5e062a19" />
+ 
+  - [Problemas encontrados y soluciones/alternativas propuestas
+  - Evaluaremos colocar unas bisagras a la tapa de la caja de protección para mejorar la maniobrabilidad de la caja
+  - Evaluaremos si usar definitiamente la pila o si abrir un hueco a la caja para conectarlo directamente a la computadora
+    
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
-## Nota
-En este enlace encontrarás un [ejemplo como debe completarse el informe de avance](avance_ejemplo.md).
+
