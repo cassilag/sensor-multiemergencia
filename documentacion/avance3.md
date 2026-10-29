@@ -116,17 +116,21 @@ No siempre es necesario modificar el código. Puede bastar con registrar las pru
 ## 22/10/2026
 - El grupo se puso a indagar sobre cuales serían las medidas del contenedor caja donde iría el sensor.
 - Aproximadamente dando unas medidas con cinta métrica. Andrea tomó notas de las medidas para tenerlas en cuenta 15X12cm.
--Hablamos en grupo de que se podría complejizar un poco más el proyecto, porque anteriormente los sensores que teníamos se rompieron. Y conversando con el profesor nos ofreció un LED RGB, que por si solo puede hacer los 3 colores del semáforo, rojo, para alerta critica, amarillo media, y verde baja.
-  Tomada esa decisión Andrés se encarga de primero probar ese bloque de codigo con  esas instrucciones donde se genera un semaforo,para el sensor LED RGB.
-  El material de la caja por ahora en esta clase definimos que el material podría ser MDF, y que además entre las adaptaciones que tiene la caja tendrà un circulo que es la forma o diametro del buzer, para que pueda quedar a la vista.
+-Hablamos en grupo de que se podría robustizar un poco más el proyecto, porque anteriormente los sensores que teníamos se rompieron. Y conversando con el profesor nos ofreció un LED RGB, que por si solo puede hacer los 3 colores del semáforo, rojo, para alerta critica, amarillo media, y verde baja.
+  Tomada esa decisión Andrés se encarga de primero probar ese bloque de código con  esas instrucciones donde se genera un semáforo,para el sensor LED RGB.
+  El material de la caja por ahora en esta clase definimos que el material podría ser MDF, y que además entre las adaptaciones que tiene la caja tendrá un circulo que es la forma o diámetro del buzer, para que pueda quedar a la vista.
   A final de la clase logramos programar el código de tal forma que logramos el semáforo de los 3 colores simulando el fuego con el encendedor. 
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
 
-## [x]/10/202x
+
+https://github.com/user-attachments/assets/77f6278c-e28c-4d3c-bb99-26c8fbec5fec
+
+
+https://github.com/user-attachments/assets/2e83b3da-e573-4e5d-b000-98127dbae60e
+
+
+
+
+## 29/10/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
