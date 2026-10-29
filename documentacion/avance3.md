@@ -135,12 +135,20 @@ https://github.com/user-attachments/assets/2e83b3da-e573-4e5d-b000-98127dbae60e
 - El día de hoy probar la caja de protección del SAFE
 - Reforzamos los conocimientos de la integración del código y el armado del sensor
 - <img width="1080" height="1920" alt="caja proyecto steam" src="https://github.com/user-attachments/assets/3c466c55-f5b7-4f74-a864-7dfa5e062a19" />
+
+
+https://github.com/user-attachments/assets/bbaf7401-ac21-44ee-b202-6f8fd9914865
+
+
  
    **Problemas encontrados y soluciones/alternativas propuestas**
   - Evaluaremos colocar unas bisagras a la tapa de la caja de protección para mejorar la maniobrabilidad de la caja
   - Evaluaremos si usar definitivamente la pila o si abrir un hueco a la caja para conectarlo directamente a la computadora
+  - Se tomaron las medidas para que los sensores de llama, el buzzer y el RGB tengan una salida fuera de la caja 
     
-  - [Próximos pasos]
+  - **Próximos pasos**
+  - Realizar los huecos de la caja
+  - 
   - [Imágenes o videos ilustrativos del avance]
 
 
