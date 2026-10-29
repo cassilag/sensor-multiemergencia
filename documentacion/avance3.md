@@ -148,7 +148,7 @@ https://github.com/user-attachments/assets/bbaf7401-ac21-44ee-b202-6f8fd9914865
     
   - **Próximos pasos**
   - Realizar los huecos de la caja
-  - 
-  - [Imágenes o videos ilustrativos del avance]
+  - Confirmar si podemos usar un pila de 9V 
+  
 
 
