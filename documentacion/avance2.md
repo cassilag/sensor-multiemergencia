@@ -16,7 +16,6 @@
 - Se solicito una pantalla led para tenerlo como opción para hacer hacer mas robusto el proyecto si los tiempos lo permiten
 - Se probo el sensor led con el buzzer y funciono correctamente
 - Se probo el sensor de inclinación con aviso led y funciono correctamente
-- 
 
 https://github.com/user-attachments/assets/6968d8bc-43ad-4e01-9400-bc16828abfb0
 
