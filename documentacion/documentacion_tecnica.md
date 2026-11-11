@@ -44,6 +44,3 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 
 ## 8. Otros
 [Incluir cualquier otra información que consideren relevante para el proyecto]
-
-## Nota
-En este enlace encontrarás un [ejemplo como debe completarse la documentación técnica](documentacion_tecnica_ejemplo.md).
