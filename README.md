@@ -23,8 +23,7 @@ tecnicatura **Redes y Software** del Instituto tecnológico de Informática UTU 
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
 
 ## Código fuente
-- [Agregar enlace a la carpeta de GitHub donde se haya guardado el código fuente]
-- [Ejemplo: `codigo/programa1.py`]
+- `sensor completo/prototipo2.cpp`
 
 ## Presentación Final
 - [Agregar enlace a la carpeta de GitHub donde se hayan guardado diapositivas, videos, etc usados en la presentación final]
