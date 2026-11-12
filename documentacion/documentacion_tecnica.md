@@ -23,13 +23,12 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 
 ## 3. Materiales
 
-| Componente | Fotografía |
 
 | Componente | Fotografía |
 | :--- | :---: |
 | **Placa Arduino UNO** | <img src="./Imagenes_S_A_F_E/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
-| **Protoboard** | |cables dupont** | <img src="./sensor-multiemergencia/documentacion/Imagenes_S_A_F_E/Protoboard.jpg" width="150" height="150" alt="Protoboard"> 
-|**cables dupont** |<img src="./Imagenes_S_A_F_E/Terminal%20Dupond%20macho-macho.jpg" width="150" height="150" alt="Cables Dupont"> |
+| **Protoboard** | <img src="./Imagenes_S_A_F_E/Protoboard.jpg" width="150" height="150" alt="Protoboard"> |
+| **Cables dupont** | <img src="./Imagenes_S_A_F_E/Terminal%20Dupond%20macho-macho.jpg" width="150" height="150" alt="Cables Dupont"> |
 | **Sensor de llama (infrarrojo)** | <img src="./Imagenes_S_A_F_E/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
 | **Sensor de inclinación** | <img src="./Imagenes_S_A_F_E/sensor-inclinacion.jpg" width="150" height="150" alt="Sensor de inclinación"> |
 | **LED RGB (Cátodo común)** | <img src="./Imagenes_S_A_F_E/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
