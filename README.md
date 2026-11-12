@@ -27,6 +27,4 @@ tecnicatura **Redes y Software** del Instituto tecnológico de Informática UTU 
 
 ## Presentación Final
 - [Agregar enlace a la carpeta de GitHub donde se hayan guardado diapositivas, videos, etc usados en la presentación final]
-- [Ejemplo:]
-- `presentacion/presentacion-final.pptx`
-- `presentacion/video.mov`
+- [presentacion final](placeholder.txt)
