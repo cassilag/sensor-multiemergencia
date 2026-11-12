@@ -95,7 +95,7 @@ Bloques de código más importantes:
 1- Lectura de los sensores (Lineas 71y72)
 ```cpp
 int valorLlama = analogRead(pinLlama);
-int valorTilt  = analogRead(pinTilt);```
+int valorTilt  = analogRead(pinTilt);
 Mediante la función analogRead(),
 /*el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.*/
 
@@ -140,7 +140,7 @@ else {
   // Todo normal
   noTone(pinBuzzer);
   mostrarColor(APAGADO);
-  estadoLed = false;
+  estadoLed = false;```
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
 
