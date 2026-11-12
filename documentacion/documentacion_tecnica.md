@@ -24,16 +24,18 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 ## 3. Materiales
 
 | Componente | Fotografía |
+
+| Componente | Fotografía |
 | :--- | :---: |
-| **Placa Arduino UNO** | <img src="ruta/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
-| **Protoboard y cables dupont** | <img src="ruta/protoboard-dupont.jpg" width="150" height="150" alt="Protoboard y cables dupont"> |
-| **Sensor de llama (infrarrojo)** | <img src="ruta/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
-| **Sensor de inclinación** | <img src="ruta/sensor-inclinacion.jpg" width="150" height="150" alt="Sensor de inclinación"> |
-| **LED RGB (Cátodo común)** | <img src="ruta/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
-| **Buzzer pasivo** | <img src="ruta/buzzer-pasivo.jpg" width="150" height="150" alt="Buzzer pasivo"> |
-| **Pila 9v y porta pilas** | <img src="ruta/pila-9v.jpg" width="150" height="150" alt="Pila 9v y porta pilas"> |
-| **Caja protectora MDF** | <img src="ruta/caja-mdf.jpg" width="150" height="150" alt="Caja MDF"> |
-| **Bisagras** | <img src="ruta/bisagras.jpg" width="150" height="150" alt="Bisagras"> |
+| **Placa Arduino UNO** | <img src="./Imagenes_S_A_F_E/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
+| **Protoboard y cables dupont** | <img src="./Imagenes_S_A_F_E/Protoboard.jpg" width="150" height="150" alt="Protoboard"> <img src="./Imagenes_S_A_F_E/Terminal%20Dupond%20macho-macho.jpg" width="150" height="150" alt="Cables Dupont"> |
+| **Sensor de llama (infrarrojo)** | <img src="./Imagenes_S_A_F_E/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
+| **Sensor de inclinación** | <img src="./Imagenes_S_A_F_E/sensor-inclinacion.jpg" width="150" height="150" alt="Sensor de inclinación"> |
+| **LED RGB (Cátodo común)** | <img src="./Imagenes_S_A_F_E/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
+| **Buzzer pasivo** | <img src="./Imagenes_S_A_F_E/buzzer-pasivo.jpg" width="150" height="150" alt="Buzzer pasivo"> |
+| **Pila 9v y porta pilas** | <img src="./Imagenes_S_A_F_E/Pila%209v%20alcalina.png" width="150" height="150" alt="Pila 9V"> <img src="./Imagenes_S_A_F_E/Portapila%209V%20con%20conector%20plug%20D....jpg" width="150" height="150" alt="Portapila 9V"> |
+| **Caja protectora MDF** | <img src="./Imagenes_S_A_F_E/caja-mdf.jpg" width="150" height="150" alt="Caja MDF"> |
+| **Bisagras** | <img src="./Imagenes_S_A_F_E/bisagras.jpg" width="150" height="150" alt="Bisagras"> |
 
 
 ## 4. Diseño Mecánico
