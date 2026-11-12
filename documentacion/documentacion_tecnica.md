@@ -26,7 +26,7 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 
 | Componente | Fotografía |
 | :--- | :---: |
-| **Placa Arduino UNO** | <img src="./Imagenes_S_A_F_E/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
+| **Placa Arduino UNO** | <img src="./Imagenes_S_A_F_E/arduinouno.jpg" width="150" height="150" alt="Arduino UNO"> |
 | **Protoboard** | <img src="./Imagenes_S_A_F_E/Protoboard.jpg" width="150" height="150" alt="Protoboard"> |
 | **Cables dupont** | <img src="./Imagenes_S_A_F_E/Terminal Dupond macho-macho.png" width="150" height="150" alt="Cables Dupont"> |
 | **Sensor de llama (infrarrojo)** | <img src="./Imagenes_S_A_F_E/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
