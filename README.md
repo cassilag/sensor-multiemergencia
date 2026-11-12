@@ -23,7 +23,6 @@ tecnicatura **Redes y Software** del Instituto tecnológico de Informática UTU 
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
 
 ## Código fuente
-* [sensor completo/prototipo 1.cpp](sensor%20completo/prototipo%201.cpp)
 * [sensor completo/prototipo2.cpp](sensor%20completo/prototipo2.cpp)
 
 ## Presentación Final
