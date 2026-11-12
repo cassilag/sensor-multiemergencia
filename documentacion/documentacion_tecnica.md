@@ -96,7 +96,8 @@ Bloques de código más importantes:
 ```cpp
 int valorLlama = analogRead(pinLlama);
 int valorTilt  = analogRead(pinTilt);
-Mediante la función analogRead(),```
+Mediante la función analogRead(),
+```
 el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
 
 2-Detección llama (lineas 74–83)
