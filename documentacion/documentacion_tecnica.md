@@ -151,8 +151,16 @@ else {
 ```
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
-- [Explicar los bloques de código más importantes de la solución programada]
-- [Incluir código fuente de python (u otro lenguaje)]
+- [Incluir código fuente de  (u otro lenguaje)
+
+### Código Fuente
+
+Puedes consultar y descargar las versiones del código fuente en los siguientes enlaces:
+
+* **Versión inicial (Prototipo 1):** [Ver código prototipo1.cpp](../sensor%20completo/prototipo1.cpp)
+* **Versión final (Prototipo 2):** [Ver código prototipo2.cpp](../sensor%20completo/prototipo2.cpp)
+
+- 
   - [El código debe almacenarse en una carpeta dentro del repositorio]
   - [Sugerencia: almacenar el código en diferentes etapas para mostrar su evolución]
  
