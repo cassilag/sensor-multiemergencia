@@ -75,6 +75,8 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 - Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes.
 
+- A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
+
 Detección de llama y movimiento
 
 El Arduino realiza lecturas continuas del sensor de llama y del sensor de inclinación mediante la función analogRead().
@@ -144,7 +146,6 @@ Cuando ninguno de los sensores detecta una condición de emergencia, el programa
 
 
 
-A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
 - [Explicar los bloques de código más importantes de la solución programada]
 - [Incluir código fuente de python (u otro lenguaje)]
   - [El código debe almacenarse en una carpeta dentro del repositorio]
