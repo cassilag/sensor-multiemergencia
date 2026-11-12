@@ -47,7 +47,7 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 - Proceso de ensamblaje
 Para el armado del prototipo se establecieron los siguientes pasos:
 
-1-<ins>Preparación de la caja<ins/>: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
+1-<u>Preparación de la caja<u/>: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
 
 2-Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
 
