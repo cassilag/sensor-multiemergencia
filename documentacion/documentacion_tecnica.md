@@ -31,6 +31,9 @@ SAFE se desarrolla como un prototipo educativo que permite aplicar conocimientos
 - Sensor de inclinación
 - LED RGB (Cátodo común)
 - Buzzer pasivo
+- Pila 9v y porta pilas
+- Caja protectora MDF
+- Bisagras
 
 ## 4. Diseño Mecánico
 - [Realizar una descripción de como funciona la solución a nivel mecánico]
