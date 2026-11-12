@@ -8,7 +8,7 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 
 ## 1. Integrantes
 - Florencia Delgado
-- Andrea Puentes
+- Andrea Puentes bbbb
 - Andres Silva
 
 ## 2. Descripción
