@@ -151,26 +151,14 @@ else {
 ```
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
-- [Incluir código fuente de  (u otro lenguaje)
-
-### Código Fuente
-
-Puedes consultar y descargar las versiones del código fuente en los siguientes enlaces:
-
 ### Código Fuente
 
 * **Prototipo 1:** [Ver código prototipo 1.cpp](/sensor%20completo/prototipo%201.cpp)
 * **Prototipo 2:** [Ver código prototipo2.cpp](/sensor%20completo/prototipo2.cpp)
-
-
-- 
-  - [El código debe almacenarse en una carpeta dentro del repositorio]
-  - [Sugerencia: almacenar el código en diferentes etapas para mostrar su evolución]
- 
     
-
 ## 7. Referencias y recursos 
-[Listar referencias, fuentes, recursos, etc usados durante el desarrollo del proyecto]
+* Autodesk Tinkercad. (s. f.). *Tinkercad micro:bit Python API*. Recuperado de [https://tinkercad.com](https://tinkercad.com)
+* *Cómo conectar sensores y otros dispositivos al micro:bit*. (s. f.). Google Docs. Recuperado de [https://google.com](https://google.com)
 
 ## 8. Otros
 [Incluir cualquier otra información que consideren relevante para el proyecto]
