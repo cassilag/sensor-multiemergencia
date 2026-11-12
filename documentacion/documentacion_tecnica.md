@@ -149,10 +149,6 @@ else {
   estadoLed = false;```
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
-
-
-
-
 - [Explicar los bloques de código más importantes de la solución programada]
 - [Incluir código fuente de python (u otro lenguaje)]
   - [El código debe almacenarse en una carpeta dentro del repositorio]
