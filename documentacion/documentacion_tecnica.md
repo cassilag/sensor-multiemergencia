@@ -72,10 +72,85 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 ## 6. Diseño Software
 - [Realizar una descripción de como funciona la solución a nivel de software]
+
+- Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes.
+
+Detección de llama y movimiento
+
+El Arduino realiza lecturas continuas del sensor de llama y del sensor de inclinación mediante la función analogRead().
+
+Cuando los valores obtenidos superan los límites establecidos en el programa, se identifica una situación de alerta. En caso de detectar ambos eventos al mismo tiempo, se da prioridad a la alerta por llama.
+
+Activación del buzzer y LED RGB
+
+El buzzer y el LED RGB se activan según el tipo de emergencia detectada.
+
+El buzzer emite diferentes frecuencias para distinguir entre una alerta por llama y una alerta por inclinación. Por su parte, el LED RGB utiliza los colores verde, amarillo y rojo para representar diferentes niveles de alerta, variando también la velocidad de parpadeo.
+
+Cuando no se detecta ninguna situación de emergencia, ambos componentes permanecen apagados.
+
+Bloques de código más importantes:
+
+1- Lectura de los sensores (Lineas 71y72)
+int valorLlama = analogRead(pinLlama);
+int valorTilt  = analogRead(pinTilt);
+Mediante la función analogRead(), el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
+
+2-Detección llama (lineas 74–83)
+if (valorLlama < umbralLlama) {
+  // ALARMA DE LLAMA: rojo (cerca) -> amarillo -> verde (lejos)
+  int color;
+  if (valorLlama < llamaRojo)          color = ROJO;
+  else if (valorLlama < llamaAmarillo) color = AMARILLO;
+  else                                 color = VERDE;
+
+  tone(pinBuzzer, frecLlama);
+  parpadear(100, color);
+}
+Cuando el sensor de llama registra un valor inferior al límite establecido, el programa activa una alerta sonora y hace parpadear el LED RGB. El color varía según el valor detectado.
+
+3-Detección de inclinación (lineas 84–93)
+else if (valorTilt > umbralTilt) {
+  // ALARMA DE TAMBALEO: verde (leve) -> amarillo -> rojo (fuerte)
+  int color;
+  if (valorTilt > tiltRojo)          color = ROJO;
+  else if (valorTilt > tiltAmarillo) color = AMARILLO;
+  else                               color = VERDE;
+
+  tone(pinBuzzer, frecTilt);
+  parpadear(500, color);
+}
+Cuando el sensor registra un valor superior al límite programado, se activa el buzzer y el LED RGB. Los colores permiten diferenciar los niveles de alerta según la lectura del sensor.
+
+4-Control del parpadeo del LED RGB (lineas 53–59)
+void parpadear(unsigned long intervalo, int color) {
+  if (millis() - ultimoCambio >= intervalo) {
+    ultimoCambio = millis();
+    estadoLed = !estadoLed;
+  }
+  mostrarColor(estadoLed ? color : APAGADO);
+}
+Esta función controla el encendido y apagado del LED RGB mediante millis(), permitiendo establecer diferentes velocidades de parpadeo dependiendo de la alerta.
+
+5-Estado normal del sistema (lineas 94–99)
+else {
+  // Todo normal
+  noTone(pinBuzzer);
+  mostrarColor(APAGADO);
+  estadoLed = false;
+Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
+
+
+
+
+
+A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
 - [Explicar los bloques de código más importantes de la solución programada]
 - [Incluir código fuente de python (u otro lenguaje)]
   - [El código debe almacenarse en una carpeta dentro del repositorio]
   - [Sugerencia: almacenar el código en diferentes etapas para mostrar su evolución]
+ 
+    
 
 ## 7. Referencias y recursos
 [Listar referencias, fuentes, recursos, etc usados durante el desarrollo del proyecto]
