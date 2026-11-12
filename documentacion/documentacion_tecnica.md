@@ -41,6 +41,31 @@ SAFE se desarrolla como un prototipo educativo que permite aplicar conocimientos
   - [Sugerencia: inspirarse en la forma como https://www.instructables.com detalla el armado de un proyecto]
 - [Incluir fotografías ilustrativas]
 
+Para el armado del prototipo SAFE se decidió utilizar una caja protectora, con el objetivo de alojar los componentes electrónicos, mantenerlos organizados y protegerlos durante su manipulación.
+
+Durante el desarrollo del proyecto se tomaron medidas aproximadas de 15 × 12 cm para el contenedor, considerando el espacio necesario para colocar el Arduino UNO, la protoboard y los diferentes componentes. También se evaluó la posibilidad de utilizar MDF como material de construcción.
+
+El diseño contempla colocar el Arduino y la protoboard en el interior de la caja, dejando aberturas para que el sensor de llama pueda realizar las detecciones y las alertas del LED RGB y el buzzer sean visibles y audibles desde el exterior.
+
+Proceso de ensamblaje
+Para el armado del prototipo se establecieron los siguientes pasos:
+
+1-Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
+
+2-Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
+
+3-Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
+
+4-Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
+
+5-Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
+
+6-Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
+
+(ACA AGREGAR FOTOGRAFIAS)
+
+
+
 ## 5. Diseño Electrónico
 - [Realizar una descripción de como funciona la solución a nivel electrónico]
 - [Incluir diagramas de Tinkercad mostrando los componentes electrónicos y como van conectados]
