@@ -39,10 +39,6 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 
 
 ## 4. Diseño Mecánico
-- [Realizar una descripción de como funciona la solución a nivel mecánico]
-- [¿Cómo se arma la solución? Incluir instrucciones de ensamblaje]
-  - [Sugerencia: inspirarse en la forma como https://www.instructables.com detalla el armado de un proyecto]
-- [Incluir fotografías ilustrativas]
 
 - Para el armado del prototipo SAFE se decidió utilizar una caja protectora, con el objetivo de alojar los componentes electrónicos, mantenerlos organizados y protegerlos durante su manipulación.
 
@@ -76,7 +72,6 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 - [Incluir diagramas de Tinkercad mostrando los componentes electrónicos y como van conectados]
 
 ## 6. Diseño Software
-- [Realizar una descripción de como funciona la solución a nivel de software]
 
 - Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes. A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
 
@@ -105,6 +100,7 @@ Mediante la función analogRead(),
 el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
 
 2. Detección llama (lineas 74–83)
+```cpp
 if (valorLlama < umbralLlama) {
   // ALARMA DE LLAMA: rojo (cerca) -> amarillo -> verde (lejos)
   int color;
@@ -115,6 +111,7 @@ if (valorLlama < umbralLlama) {
   tone(pinBuzzer, frecLlama);
   parpadear(100, color);
 }
+```
 Cuando el sensor de llama registra un valor inferior al límite establecido, el programa activa una alerta sonora y hace parpadear el LED RGB. El color varía según el valor detectado.
 
 3. Detección de inclinación (lineas 84–93)
