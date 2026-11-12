@@ -20,9 +20,9 @@ El dispositivo integra un sensor de llama infrarrojo, encargado de detectar la p
 El sistema utiliza un LED RGB para representar diferentes niveles de alerta mediante los colores verde, amarillo y rojo, mientras que un buzzer emite señales sonoras diferenciadas según el evento detectado.
 
 Además, el proyecto contempla la utilización de una caja protectora para alojar los componentes electrónicos, facilitar su organización y reducir su exposición a daños externos.
+SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimientos de electrónica, programación y funcionamiento de sensores, mediante el diseño, la integración y las pruebas de sus componentes. 
 
-SAFE se desarrolla como un prototipo educativo que permite aplicar conocimientos de electrónica, programación y funcionamiento de sensores, mediante el diseño, la integración y las pruebas de sus componentes.
-- 
+ 
 
 ## 3. Materiales
 - Placa Arduino UNO
