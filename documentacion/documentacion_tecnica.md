@@ -94,9 +94,11 @@ Cuando no se detecta ninguna situación de emergencia, ambos componentes permane
 Bloques de código más importantes:
 
 1- Lectura de los sensores (Lineas 71y72)
+```cpp
 int valorLlama = analogRead(pinLlama);
-int valorTilt  = analogRead(pinTilt);
-Mediante la función analogRead(), el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
+int valorTilt  = analogRead(pinTilt);```
+Mediante la función analogRead(),
+el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
 
 2-Detección llama (lineas 74–83)
 if (valorLlama < umbralLlama) {
