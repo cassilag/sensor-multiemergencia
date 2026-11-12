@@ -14,14 +14,12 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 ## 2. Descripción
 - El proyecto SAFE (Sensor Automático de Fuego y Emergencias) consiste en el desarrollo de un prototipo electrónico basado en Arduino UNO, diseñado para detectar la presencia de llamas y cambios de inclinación que permitan simular situaciones de emergencia, como incendios y temblores.
 
-El dispositivo integra un sensor de llama infrarrojo, encargado de detectar la presencia de llamas, y un sensor de inclinación, utilizado para identificar cambios de posición y simular situaciones de movimiento o temblor. Ambos sensores envían señales al Arduino UNO, que procesa la información y activa las alertas visuales y sonoras correspondientes.
+- El dispositivo integra un sensor de llama infrarrojo, encargado de detectar la presencia de llamas, y un sensor de inclinación, utilizado para identificar cambios de posición y simular situaciones de movimiento o temblor. Ambos sensores envían señales al Arduino UNO, que procesa la información y activa las alertas visuales y sonoras correspondientes.
 
-El sistema utiliza un LED RGB para representar diferentes niveles de alerta mediante los colores verde, amarillo y rojo, mientras que un buzzer emite señales sonoras diferenciadas según el evento detectado.
+- El sistema utiliza un LED RGB para representar diferentes niveles de alerta mediante los colores verde, amarillo y rojo, mientras que un buzzer emite señales sonoras diferenciadas según el evento detectado.
 
-Además, el proyecto contempla la utilización de una caja protectora para alojar los componentes electrónicos, facilitar su organización y reducir su exposición a daños externos.
+- Además, el proyecto contempla la utilización de una caja protectora para alojar los componentes electrónicos, facilitar su organización y reducir su exposición a daños externos.
 SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimientos de electrónica, programación y funcionamiento de sensores, mediante el diseño, la integración y las pruebas de sus componentes. 
-
- 
 
 ## 3. Materiales
 - Placa Arduino UNO
@@ -40,11 +38,11 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
   - [Sugerencia: inspirarse en la forma como https://www.instructables.com detalla el armado de un proyecto]
 - [Incluir fotografías ilustrativas]
 
-Para el armado del prototipo SAFE se decidió utilizar una caja protectora, con el objetivo de alojar los componentes electrónicos, mantenerlos organizados y protegerlos durante su manipulación.
+- Para el armado del prototipo SAFE se decidió utilizar una caja protectora, con el objetivo de alojar los componentes electrónicos, mantenerlos organizados y protegerlos durante su manipulación.
 
-Durante el desarrollo del proyecto se tomaron medidas aproximadas de 15 × 12 cm para el contenedor, considerando el espacio necesario para colocar el Arduino UNO, la protoboard y los diferentes componentes. También se evaluó la posibilidad de utilizar MDF como material de construcción.
+- Durante el desarrollo del proyecto se tomaron medidas aproximadas de 15 × 12 cm para el contenedor, considerando el espacio necesario para colocar el Arduino UNO, la protoboard y los diferentes componentes. También se evaluó la posibilidad de utilizar MDF como material de construcción.
 
-El diseño contempla colocar el Arduino y la protoboard en el interior de la caja, dejando aberturas para que el sensor de llama pueda realizar las detecciones y las alertas del LED RGB y el buzzer sean visibles y audibles desde el exterior.
+- El diseño contempla colocar el Arduino y la protoboard en el interior de la caja, dejando aberturas para que el sensor de llama pueda realizar las detecciones y las alertas del LED RGB y el buzzer sean visibles y audibles desde el exterior.
 
 - Proceso de ensamblaje
 Para el armado del prototipo se establecieron los siguientes pasos:
