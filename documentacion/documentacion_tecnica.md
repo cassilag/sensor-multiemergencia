@@ -15,11 +15,11 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 - Este proyecto consiste en un dispositivo prototipo basado en Arduino diseñado para la detección temprana de fuego y sismos en un espacio reducido como una maqueta o una habitación.
 El proyecto SAFE (Sensor Automático de Fuego y Emergencias) consiste en el desarrollo de un prototipo electrónico basado en Arduino UNO, diseñado para detectar la presencia de llamas y cambios de inclinación que permitan simular situaciones de emergencia, como incendios y temblores.
 
-El dispositivo integra un sensor de llama infrarrojo y un sensor de inclinación, que envían señales al Arduino para su procesamiento. A partir de las lecturas obtenidas, el sistema activa alertas visuales mediante un LED RGB y alertas sonoras a través de un buzzer, con el objetivo de identificar y advertir posibles situaciones de riesgo.
+El dispositivo integra un sensor de llama infrarrojo, encargado de detectar la presencia de llamas, y un sensor de inclinación, utilizado para identificar cambios de posición y simular situaciones de movimiento o temblor. Ambos sensores envían señales al Arduino UNO, que procesa la información y activa las alertas visuales y sonoras correspondientes.
 
-El LED RGB permite representar diferentes niveles de alerta mediante los colores verde y rojo, mientras que el buzzer emite señales sonoras diferenciadas según el tipo de evento detectado.
+El sistema utiliza un LED RGB para representar diferentes niveles de alerta mediante los colores verde, amarillo y rojo, mientras que un buzzer emite señales sonoras diferenciadas según el evento detectado.
 
-Además, el proyecto contempla la utilización de una caja protectora para alojar los componentes electrónicos, facilitar su organización y reducir la exposición a daños externos.
+Además, el proyecto contempla la utilización de una caja protectora para alojar los componentes electrónicos, facilitar su organización y reducir su exposición a daños externos.
 
 SAFE se desarrolla como un prototipo educativo que permite aplicar conocimientos de electrónica, programación y funcionamiento de sensores, mediante el diseño, la integración y las pruebas de sus componentes.
 - 
