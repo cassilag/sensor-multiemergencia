@@ -8,7 +8,7 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 
 ## 1. Integrantes
 - Florencia Delgado
-- Andrea Puentes bbbb
+- Andrea Puentes 
 - Andres Silva
 
 ## 2. Descripción
@@ -22,15 +22,19 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimientos de electrónica, programación y funcionamiento de sensores, mediante el diseño, la integración y las pruebas de sus componentes. 
 
 ## 3. Materiales
-- Placa Arduino UNO
-- Protoboard y cables dupont
-- Sensor de llama (infrarrojo)
-- Sensor de inclinación
-- LED RGB (Cátodo común)
-- Buzzer pasivo
-- Pila 9v y porta pilas
-- Caja protectora MDF
-- Bisagras
+
+| Componente | Fotografía |
+| :--- | :---: |
+| **Placa Arduino UNO** | <img src="ruta/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
+| **Protoboard y cables dupont** | <img src="ruta/protoboard-dupont.jpg" width="150" height="150" alt="Protoboard y cables dupont"> |
+| **Sensor de llama (infrarrojo)** | <img src="ruta/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
+| **Sensor de inclinación** | <img src="ruta/sensor-inclinacion.jpg" width="150" height="150" alt="Sensor de inclinación"> |
+| **LED RGB (Cátodo común)** | <img src="ruta/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
+| **Buzzer pasivo** | <img src="ruta/buzzer-pasivo.jpg" width="150" height="150" alt="Buzzer pasivo"> |
+| **Pila 9v y porta pilas** | <img src="ruta/pila-9v.jpg" width="150" height="150" alt="Pila 9v y porta pilas"> |
+| **Caja protectora MDF** | <img src="ruta/caja-mdf.jpg" width="150" height="150" alt="Caja MDF"> |
+| **Bisagras** | <img src="ruta/bisagras.jpg" width="150" height="150" alt="Bisagras"> |
+
 
 ## 4. Diseño Mecánico
 - [Realizar una descripción de como funciona la solución a nivel mecánico]
