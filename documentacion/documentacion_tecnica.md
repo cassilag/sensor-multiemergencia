@@ -54,17 +54,19 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 - Proceso de ensamblaje
 Para el armado del prototipo se establecieron los siguientes pasos:
 
-1-<u>Preparación de la caja<u/>: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
+- Para el armado del prototipo se establecieron los siguientes pasos:
 
-2-Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
+1. Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
 
-3-Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
+2. Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
 
-4-Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
+3. Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
 
-5-Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
+4. Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
 
-6-Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
+5. Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
+
+6. Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
 
 (ACA AGREGAR FOTOGRAFIAS)
 
@@ -77,27 +79,25 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 ## 6. Diseño Software
 - [Realizar una descripción de como funciona la solución a nivel de software]
 
-- Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes.
+- Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes. A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
 
-- A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
+<ins>Detección de llama y movimiento<ins/>
 
-Detección de llama y movimiento
+- El Arduino realiza lecturas continuas del sensor de llama y del sensor de inclinación mediante la función analogRead().
 
-El Arduino realiza lecturas continuas del sensor de llama y del sensor de inclinación mediante la función analogRead().
+- Cuando los valores obtenidos superan los límites establecidos en el programa, se identifica una situación de alerta. En caso de detectar ambos eventos al mismo tiempo, se da prioridad a la alerta por llama.
 
-Cuando los valores obtenidos superan los límites establecidos en el programa, se identifica una situación de alerta. En caso de detectar ambos eventos al mismo tiempo, se da prioridad a la alerta por llama.
+<ins>Activación del buzzer y LED RGB<ins/>
 
-Activación del buzzer y LED RGB
+- El buzzer y el LED RGB se activan según el tipo de emergencia detectada.
 
-El buzzer y el LED RGB se activan según el tipo de emergencia detectada.
+- El buzzer emite diferentes frecuencias para distinguir entre una alerta por llama y una alerta por inclinación. Por su parte, el LED RGB utiliza los colores verde, amarillo y rojo para representar diferentes niveles de alerta, variando también la velocidad de parpadeo.
 
-El buzzer emite diferentes frecuencias para distinguir entre una alerta por llama y una alerta por inclinación. Por su parte, el LED RGB utiliza los colores verde, amarillo y rojo para representar diferentes niveles de alerta, variando también la velocidad de parpadeo.
+- Cuando no se detecta ninguna situación de emergencia, ambos componentes permanecen apagados.
 
-Cuando no se detecta ninguna situación de emergencia, ambos componentes permanecen apagados.
+<ins>Bloques de código más importantes:<ins/>
 
-Bloques de código más importantes:
-
-1- Lectura de los sensores (Lineas 71y72)
+1. Lectura de los sensores (Lineas 71y72)
 ```cpp
 int valorLlama = analogRead(pinLlama);
 int valorTilt  = analogRead(pinTilt);
@@ -105,7 +105,7 @@ Mediante la función analogRead(),
 ```
 el Arduino obtiene los valores del sensor de llama y del sensor de inclinación. Estos valores se utilizan para identificar posibles situaciones de emergencia.
 
-2-Detección llama (lineas 74–83)
+2. Detección llama (lineas 74–83)
 if (valorLlama < umbralLlama) {
   // ALARMA DE LLAMA: rojo (cerca) -> amarillo -> verde (lejos)
   int color;
@@ -118,7 +118,7 @@ if (valorLlama < umbralLlama) {
 }
 Cuando el sensor de llama registra un valor inferior al límite establecido, el programa activa una alerta sonora y hace parpadear el LED RGB. El color varía según el valor detectado.
 
-3-Detección de inclinación (lineas 84–93)
+3. Detección de inclinación (lineas 84–93)
 else if (valorTilt > umbralTilt) {
   // ALARMA DE TAMBALEO: verde (leve) -> amarillo -> rojo (fuerte)
   int color;
@@ -131,7 +131,7 @@ else if (valorTilt > umbralTilt) {
 }
 Cuando el sensor registra un valor superior al límite programado, se activa el buzzer y el LED RGB. Los colores permiten diferenciar los niveles de alerta según la lectura del sensor.
 
-4-Control del parpadeo del LED RGB (lineas 53–59)
+4. Control del parpadeo del LED RGB (lineas 53–59)
 void parpadear(unsigned long intervalo, int color) {
   if (millis() - ultimoCambio >= intervalo) {
     ultimoCambio = millis();
@@ -141,7 +141,7 @@ void parpadear(unsigned long intervalo, int color) {
 }
 Esta función controla el encendido y apagado del LED RGB mediante millis(), permitiendo establecer diferentes velocidades de parpadeo dependiendo de la alerta.
 
-5-Estado normal del sistema (lineas 94–99)
+5. Estado normal del sistema (lineas 94–99)
 else {
   // Todo normal
   noTone(pinBuzzer);
@@ -160,7 +160,7 @@ Cuando ninguno de los sensores detecta una condición de emergencia, el programa
  
     
 
-## 7. Referencias y recursos
+## 7. Referencias y recursos 
 [Listar referencias, fuentes, recursos, etc usados durante el desarrollo del proyecto]
 
 ## 8. Otros
