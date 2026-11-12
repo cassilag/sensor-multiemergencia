@@ -115,6 +115,7 @@ if (valorLlama < umbralLlama) {
 Cuando el sensor de llama registra un valor inferior al límite establecido, el programa activa una alerta sonora y hace parpadear el LED RGB. El color varía según el valor detectado.
 
 3. Detección de inclinación (lineas 84–93)
+```cpp
 else if (valorTilt > umbralTilt) {
   // ALARMA DE TAMBALEO: verde (leve) -> amarillo -> rojo (fuerte)
   int color;
@@ -125,9 +126,11 @@ else if (valorTilt > umbralTilt) {
   tone(pinBuzzer, frecTilt);
   parpadear(500, color);
 }
+```
 Cuando el sensor registra un valor superior al límite programado, se activa el buzzer y el LED RGB. Los colores permiten diferenciar los niveles de alerta según la lectura del sensor.
 
 4. Control del parpadeo del LED RGB (lineas 53–59)
+```cpp
 void parpadear(unsigned long intervalo, int color) {
   if (millis() - ultimoCambio >= intervalo) {
     ultimoCambio = millis();
@@ -135,14 +138,17 @@ void parpadear(unsigned long intervalo, int color) {
   }
   mostrarColor(estadoLed ? color : APAGADO);
 }
+```
 Esta función controla el encendido y apagado del LED RGB mediante millis(), permitiendo establecer diferentes velocidades de parpadeo dependiendo de la alerta.
 
-5. Estado normal del sistema (lineas 94–99)
+6. Estado normal del sistema (lineas 94–99)
+```cpp
 else {
   // Todo normal
   noTone(pinBuzzer);
   mostrarColor(APAGADO);
-  estadoLed = false;```
+  estadoLed = false;
+```
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
 - [Explicar los bloques de código más importantes de la solución programada]
