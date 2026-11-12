@@ -12,8 +12,7 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
 - Andres Silva
 
 ## 2. Descripción
-- Este proyecto consiste en un dispositivo prototipo basado en Arduino diseñado para la detección temprana de fuego y sismos en un espacio reducido como una maqueta o una habitación.
-El proyecto SAFE (Sensor Automático de Fuego y Emergencias) consiste en el desarrollo de un prototipo electrónico basado en Arduino UNO, diseñado para detectar la presencia de llamas y cambios de inclinación que permitan simular situaciones de emergencia, como incendios y temblores.
+- El proyecto SAFE (Sensor Automático de Fuego y Emergencias) consiste en el desarrollo de un prototipo electrónico basado en Arduino UNO, diseñado para detectar la presencia de llamas y cambios de inclinación que permitan simular situaciones de emergencia, como incendios y temblores.
 
 El dispositivo integra un sensor de llama infrarrojo, encargado de detectar la presencia de llamas, y un sensor de inclinación, utilizado para identificar cambios de posición y simular situaciones de movimiento o temblor. Ambos sensores envían señales al Arduino UNO, que procesa la información y activa las alertas visuales y sonoras correspondientes.
 
@@ -47,10 +46,10 @@ Durante el desarrollo del proyecto se tomaron medidas aproximadas de 15 × 12 cm
 
 El diseño contempla colocar el Arduino y la protoboard en el interior de la caja, dejando aberturas para que el sensor de llama pueda realizar las detecciones y las alertas del LED RGB y el buzzer sean visibles y audibles desde el exterior.
 
-Proceso de ensamblaje
+- Proceso de ensamblaje
 Para el armado del prototipo se establecieron los siguientes pasos:
 
-1-Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
+1-<ins>Preparación de la caja<ins/>: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
 
 2-Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
 
