@@ -34,7 +34,7 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 | **LED RGB (Cátodo común)** | <img src="./Imagenes_S_A_F_E/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
 | **Buzzer pasivo** | <img src="./Imagenes_S_A_F_E/buzzerpasivo.jpg" width="150" height="150" alt="Buzzer pasivo"> |
 | **Pila 9V** | <img src="./Imagenes_S_A_F_E/Pilaalcalina-y-portapila.png" width="150" height="150" alt="Pila 9V">
-| **Porta Pilas** | <img src="./Imagenes_S_A_F_E/portapila.png" width="150" height="150" alt="Pila 9V"> |
+| **Porta Pilas** | <img src="./Imagenes_S_A_F_E/portapilsa.png" width="150" height="150" alt="Pila 9V"> |
 | **Caja protectora MDF** | <img src="./Imagenes_S_A_F_E/caja-mdf.jpg" width="150" height="150" alt="Caja MDF"> |
 | **Bisagras** | <img src="./Imagenes_S_A_F_E/bisagras.jpg" width="150" height="150" alt="Bisagras"> |
 
