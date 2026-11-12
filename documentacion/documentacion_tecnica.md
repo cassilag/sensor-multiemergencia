@@ -157,8 +157,11 @@ Cuando ninguno de los sensores detecta una condición de emergencia, el programa
 
 Puedes consultar y descargar las versiones del código fuente en los siguientes enlaces:
 
-* **Versión inicial (Prototipo 1):** [Ver código prototipo1.cpp](../sensor%20completo/prototipo1.cpp)
-* **Versión final (Prototipo 2):** [Ver código prototipo2.cpp](../sensor%20completo/prototipo2.cpp)
+### Código Fuente
+
+* **Prototipo 1:** [Ver código prototipo 1.cpp](/sensor%20completo/prototipo%201.cpp)
+* **Prototipo 2:** [Ver código prototipo2.cpp](/sensor%20completo/prototipo2.cpp)
+
 
 - 
   - [El código debe almacenarse en una carpeta dentro del repositorio]
