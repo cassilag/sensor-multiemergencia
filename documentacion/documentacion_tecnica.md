@@ -28,12 +28,12 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 | :--- | :---: |
 | **Placa Arduino UNO** | <img src="./Imagenes_S_A_F_E/arduino-uno.jpg" width="150" height="150" alt="Arduino UNO"> |
 | **Protoboard** | <img src="./Imagenes_S_A_F_E/Protoboard.jpg" width="150" height="150" alt="Protoboard"> |
-| **Cables dupont** | <img src="./Imagenes_S_A_F_E/Terminal%20Dupond%20macho-macho.jpg" width="150" height="150" alt="Cables Dupont"> |
+| **Cables dupont** | <img src="./Imagenes_S_A_F_E/Terminal Dupond macho-macho.png" width="150" height="150" alt="Cables Dupont"> |
 | **Sensor de llama (infrarrojo)** | <img src="./Imagenes_S_A_F_E/sensor-llama.jpg" width="150" height="150" alt="Sensor de llama"> |
 | **Sensor de inclinación** | <img src="./Imagenes_S_A_F_E/sensor-inclinacion.jpg" width="150" height="150" alt="Sensor de inclinación"> |
 | **LED RGB (Cátodo común)** | <img src="./Imagenes_S_A_F_E/led-rgb.jpg" width="150" height="150" alt="LED RGB"> |
 | **Buzzer pasivo** | <img src="./Imagenes_S_A_F_E/buzzer-pasivo.jpg" width="150" height="150" alt="Buzzer pasivo"> |
-| **Pila 9v y porta pilas** | <img src="./Imagenes_S_A_F_E/Pila%209v%20alcalina.png" width="150" height="150" alt="Pila 9V"> <img src="./Imagenes_S_A_F_E/Portapila%209V%20con%20conector%20plug%20D....jpg" width="150" height="150" alt="Portapila 9V"> |
+| **Pila 9v y porta pilas** | <img src="./Imagenes_S_A_F_E/Pilaalcalina-y-portapila.png" width="150" height="150" alt="Pila 9V"> 
 | **Caja protectora MDF** | <img src="./Imagenes_S_A_F_E/caja-mdf.jpg" width="150" height="150" alt="Caja MDF"> |
 | **Bisagras** | <img src="./Imagenes_S_A_F_E/bisagras.jpg" width="150" height="150" alt="Bisagras"> |
 
