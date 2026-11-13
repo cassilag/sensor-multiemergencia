@@ -152,7 +152,7 @@ Cuando ninguno de los sensores detecta una condición de emergencia, el programa
 
 ### Código Fuente
 
-* **Prototipo 2:** [Ver código prototipo2.cpp](/sensor%20completo/prototipo2.cpp)
+* **Prototipo 2:** [documentacion](/sensor%20completo/codigo-final.cpp)
     
 ## 7. Referencias y recursos 
 * Autodesk Tinkercad. (s. f.). *Tinkercad micro:bit Python API*. Recuperado de [https://tinkercad.com](https://tinkercad.com)
