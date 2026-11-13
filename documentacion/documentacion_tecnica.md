@@ -47,22 +47,20 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 
 - El diseño contempla colocar el Arduino y la protoboard en el interior de la caja, dejando aberturas para que el sensor de llama pueda realizar las detecciones y las alertas del LED RGB y el buzzer sean visibles y audibles desde el exterior.
 
-- Proceso de ensamblaje
+### Proceso de ensamblaje
 Para el armado del prototipo se establecieron los siguientes pasos:
 
-- Para el armado del prototipo se establecieron los siguientes pasos:
+- Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
 
-1. Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
+- Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
 
-2. Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
+- Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
 
-3. Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
+- Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
 
-4. Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
+- Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
 
-5. Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
-
-6. Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
+- Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
 
 (ACA AGREGAR FOTOGRAFIAS)
 
@@ -76,13 +74,13 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 - Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes. A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
 
-<ins>Detección de llama y movimiento<ins/>
+### Detección de llama y movimiento
 
 - El Arduino realiza lecturas continuas del sensor de llama y del sensor de inclinación mediante la función analogRead().
 
 - Cuando los valores obtenidos superan los límites establecidos en el programa, se identifica una situación de alerta. En caso de detectar ambos eventos al mismo tiempo, se da prioridad a la alerta por llama.
 
-<ins>Activación del buzzer y LED RGB<ins/>
+### Activación del buzzer y LED RGB
 
 - El buzzer y el LED RGB se activan según el tipo de emergencia detectada.
 
@@ -90,7 +88,7 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 - Cuando no se detecta ninguna situación de emergencia, ambos componentes permanecen apagados.
 
-<ins>Bloques de código más importantes:<ins/>
+### Bloques de código más importantes
 
 1. Lectura de los sensores (Lineas 71y72)
 ```cpp
