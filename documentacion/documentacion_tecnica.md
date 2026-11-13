@@ -140,7 +140,7 @@ void parpadear(unsigned long intervalo, int color) {
 ```
 Esta función controla el encendido y apagado del LED RGB mediante millis(), permitiendo establecer diferentes velocidades de parpadeo dependiendo de la alerta.
 
-6. Estado normal del sistema (lineas 94–99)
+5. Estado normal del sistema (lineas 94–99)
 ```cpp
 else {
   // Todo normal
@@ -152,7 +152,6 @@ Cuando ninguno de los sensores detecta una condición de emergencia, el programa
 
 ### Código Fuente
 
-* **Prototipo 1:** [Ver código prototipo 1.cpp](/sensor%20completo/prototipo%201.cpp)
 * **Prototipo 2:** [Ver código prototipo2.cpp](/sensor%20completo/prototipo2.cpp)
     
 ## 7. Referencias y recursos 
