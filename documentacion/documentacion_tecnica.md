@@ -151,8 +151,7 @@ else {
 Cuando ninguno de los sensores detecta una condición de emergencia, el programa apaga el buzzer y el LED RGB, manteniendo el sistema en funcionamiento y a la espera de nuevas lecturas.
 
 ### Código Fuente
-
-* **Prototipo 2:** [documentacion](/sensor%20completo/codigo-final.cpp)
+[Código Final](/sensor%20completo/codigo-final.cpp)
     
 ## 7. Referencias y recursos 
 * Autodesk Tinkercad. (s. f.). *Tinkercad micro:bit Python API*. Recuperado de [https://tinkercad.com](https://tinkercad.com)
