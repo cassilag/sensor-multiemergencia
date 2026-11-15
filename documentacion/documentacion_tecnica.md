@@ -67,7 +67,6 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 
 ## 5. Diseño Electrónico
-- [Realizar una descripción de como funciona la solución a nivel electrónico]
 - [Incluir diagramas de Tinkercad mostrando los componentes electrónicos y como van conectados]
 
 Descripción del funcionamiento
@@ -105,6 +104,7 @@ El LED RGB es de cátodo común. Se utilizan los canales rojo y verde para gener
 
 El sistema utiliza verde, amarillo y rojo según los niveles definidos en el programa. Si ambas alertas se activan, tiene prioridad la de llama.
 
+## Diagrama Tinkercad
 
 ## 6. Diseño Software
 
