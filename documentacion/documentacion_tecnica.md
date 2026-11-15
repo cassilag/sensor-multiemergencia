@@ -1,6 +1,6 @@
 # Documentación Técnica
 
-*Fecha: 19 de noviembre de 2026*
+*Fecha: 15 de noviembre de 2026*
 
 Este documento contiene la documentación técnica para el proyecto STEAM del curso **Laboratorio STEAM+** de la tecnicatura **Redes y Software** del **Instituto Tecnológico de Informática** de **UTU** año 2026.
 
@@ -67,7 +67,6 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 
 
 ## 5. Diseño Electrónico
-- [Incluir diagramas de Tinkercad mostrando los componentes electrónicos y como van conectados]
 
 Descripción del funcionamiento
 
@@ -95,6 +94,8 @@ Según el código final, las conexiones de señal son:
 | LED RGB – Azul | 2 |
 
 El LED RGB es de cátodo común. Se utilizan los canales rojo y verde para generar las alertas; el azul permanece apagado.
+
+Para alimentar el sistema de forma independiente de la computadora, se planteó utilizar una pila de 9 V con su portapila. Esta opción permitiría que SAFE funcione sin depender de una conexión USB. 
 
 ### Condiciones de alerta
 
