@@ -70,6 +70,21 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 - [Realizar una descripción de como funciona la solución a nivel electrónico]
 - [Incluir diagramas de Tinkercad mostrando los componentes electrónicos y como van conectados]
 
+Descripción del funcionamiento
+
+El sistema SAFE utiliza una placa Arduino UNO como componente principal. A ella se conectan un sensor de llama y un sensor de inclinación, encargados de detectar las condiciones de alerta.
+
+El Arduino recibe las señales de ambos sensores y las procesa según los valores establecidos en el programa. Cuando se detecta una condición de emergencia, se activa un buzzer pasivo que emite una señal sonora y un LED RGB que indica visualmente el nivel de alerta.
+
+El LED RGB utiliza los colores verde, amarillo y rojo según la lectura del sensor. Además, la velocidad de parpadeo y la frecuencia del sonido cambian dependiendo del tipo de alerta.
+
+Si ambos sensores detectan una condición de emergencia al mismo tiempo, el sistema da prioridad a la alerta por llama.
+
+Cuando no se detecta ninguna condición de alerta, el buzzer permanece en silencio y el LED RGB apagado.
+
+
+
+
 ## 6. Diseño Software
 
 - Para la programación del prototipo SAFE se utilizó el lenguaje C++, mediante Arduino IDE. El programa permite procesar las señales recibidas por los sensores y activar las alertas correspondientes. A continuación se presenta el código utilizado para integrar los sensores y las alertas del prototipo SAFE.
