@@ -82,7 +82,28 @@ Si ambos sensores detectan una condición de emergencia al mismo tiempo, el sist
 
 Cuando no se detecta ninguna condición de alerta, el buzzer permanece en silencio y el LED RGB apagado.
 
+### Conexiones de los componentes
 
+Según el código final, las conexiones de señal son:
+
+| Componente | Pin Arduino UNO |
+|---|---|
+| Sensor de llama | A0 |
+| Sensor de inclinación | A1 |
+| Buzzer pasivo | 11 |
+| LED RGB – Rojo | 0 |
+| LED RGB – Verde | 1 |
+| LED RGB – Azul | 2 |
+
+El LED RGB es de cátodo común. Se utilizan los canales rojo y verde para generar las alertas; el azul permanece apagado.
+
+### Condiciones de alerta
+
+- **Llama:** lectura menor a 200. Sonido de 1000 Hz y parpadeo cada 100 ms.
+- **Inclinación:** lectura mayor a 100. Sonido de 400 Hz y parpadeo cada 500 ms.
+- **Sin alerta:** buzzer y LED apagados.
+
+El sistema utiliza verde, amarillo y rojo según los niveles definidos en el programa. Si ambas alertas se activan, tiene prioridad la de llama.
 
 
 ## 6. Diseño Software
