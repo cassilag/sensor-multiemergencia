@@ -51,19 +51,17 @@ SAFE se desarrolla como un prototipo educativo que permite desarrollar conocimie
 Para el armado del prototipo se establecieron los siguientes pasos:
 
 - Preparación de la caja: seleccionar un contenedor con espacio suficiente para alojar los componentes electrónicos.
-
+<img src="./Imagenes_S_A_F_E/paso1.png" width="150" height="150" alt="paso1">
 - Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
-
+<img src="./Imagenes_S_A_F_E/paso2.png" width="150" height="150" alt="paso2">
 - Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
-
+<img src="./Imagenes_S_A_F_E/paso3.png" width="150" height="150" alt="paso2">
 - Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
-
+<img src="./Imagenes_S_A_F_E/paso4.png" width="150" height="150" alt="paso2">
 - Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
-
+<img src="./Imagenes_S_A_F_E/paso5.png" width="150" height="150" alt="paso2">
 - Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
-
-(ACA AGREGAR FOTOGRAFIAS)
-
+<img src="./Imagenes_S_A_F_E/paso6.png" width="150" height="150" alt="paso2">
 
 
 ## 5. Diseño Electrónico
