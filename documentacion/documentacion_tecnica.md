@@ -54,14 +54,11 @@ Para el armado del prototipo se establecieron los siguientes pasos:
 <img src="./Imagenes_S_A_F_E/paso1.png" width="150" height="150" alt="paso1">
 - Distribución de los componentes: organizar el Arduino UNO, la protoboard y los sensores dentro de la caja, considerando el espacio necesario para las conexiones.
 <img src="./Imagenes_S_A_F_E/paso2.png" width="150" height="150" alt="paso2">
-- Ubicación de las aberturas: marcar los espacios destinados al sensor de llama, el LED RGB y el buzzer, teniendo en cuenta sus dimensiones.
-<img src="./Imagenes_S_A_F_E/paso3.png" width="150" height="150" alt="paso3">
 - Preparación de las salidas: realizar las aberturas necesarias para permitir el funcionamiento de los sensores y la salida de las alertas visuales y sonoras.
-<img src="./Imagenes_S_A_F_E/paso4.png" width="150" height="150" alt="paso4">
+<img src="./Imagenes_S_A_F_E/paso3.png" width="150" height="150" alt="paso3">
 - Montaje de los componentes: colocar y asegurar los elementos electrónicos en sus posiciones correspondientes, evitando que se desplacen durante el uso.
-<img src="./Imagenes_S_A_F_E/paso5.png" width="150" height="150" alt="paso5">
+<img src="./Imagenes_S_A_F_E/paso4.png" width="150" height="150" alt="paso4">
 - Revisión del montaje: comprobar que los componentes estén correctamente distribuidos y que la caja permita acceder a las conexiones y realizar las pruebas del sistema.
-<img src="./Imagenes_S_A_F_E/paso6.png" width="150" height="150" alt="paso6">
 
 
 ## 5. Diseño Electrónico
